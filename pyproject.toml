@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "orbital-simulator"
+version = "0.1.0"
+description = "Software to simulate satellite behaviour on LEO"
+authors = ["Grzegorz Paslawski <grzegorzpaslawski123@gmail.com>"]
+readme = "README.md"
+packages = [{include = "orbital_simulator"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
